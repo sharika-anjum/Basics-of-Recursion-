@@ -3,7 +3,7 @@ import java.util.*;
 
 public class TwoSumProblem {
     public static void main(String args[]) {
-        int[] num = {1, 2, 3, 4, 6};
+        int[] num = {1, 2, 3, 4, 6,11};
         int tar = 10;
         System.out.println(twoSum(num, tar));
     }
