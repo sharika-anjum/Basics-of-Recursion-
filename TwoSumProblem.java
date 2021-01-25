@@ -2,7 +2,12 @@ package com.company;
 import java.util.*;
 
 public class TwoSumProblem {
-    public int[] twoSum(int[] nums, int target) {
+    public static void main(String args[]) {
+        int[] num = {1, 2, 3, 4, 6};
+        int tar = 10;
+        System.out.println(twoSum(num, tar));
+    }
+    public static int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
         Map<Integer,Integer> map = new HashMap<Integer, Integer>();
         for(int i=0;i<nums.length;i++){
@@ -15,5 +20,4 @@ public class TwoSumProblem {
         }
         return result;
     }
-}
 }
